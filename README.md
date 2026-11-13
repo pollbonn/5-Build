@@ -4,9 +4,9 @@ A multi-page website consisting of a homepage and three additional pages: Screen
 The CSS is responsive and adapts to different screen sizes. The website does not use JavaScript.
 
 Website Pages
--index.html — Homepage
--screenings.html — Film Screenings
--workshops.html — Workshops
--collaborations.html — Collaborations
+- index.html - Homepage
+- screenings.html — Film Screenings
+- workshops.html — Workshops
+- collaborations.html — Collaborations
 
 Published Website URL: https://pollbonn.github.io/5-Build/
