@@ -1,4 +1,4 @@
-/* CSS by Christina Carrasquilla, iteration by */
+/* CSS by Christina Carrasquilla, iteration by Polina Namakanova */
 
 /* ===== Color Palette ===== 
 
@@ -17,9 +17,8 @@ body {
     margin: 0;
     background-color: #0f172a;
     color: #e2e8f0;
-    min-width:500px;
-    display:grid;
-    grid-template-columns:1fr;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 header {
@@ -66,6 +65,7 @@ main {
 
 img {
     width:100%;
+    height: auto;
 }
 
 #screenings, #workshops, #collaborations {
@@ -103,9 +103,38 @@ footer {
 }
 
 /* ===== Media Query (Medium) ===== */
-/* write a media query for a screen with at least 800px */
-/* change the body's grid template to 1fr 300px */
-/* target the header, nav, and footer and style their grid-column to 1/-1 */
-/* target the nav and display it flex, spaceed around */
-/* target the .card-row to display flex */
-/* target the sections in .card-row witha width for 30% */
+@media screen and (min-width: 800px) {
+
+    body {
+        grid-template-columns: 1fr 300px;
+    }
+
+    header,
+    nav,
+    footer {
+        grid-column: 1 / -1;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav li {
+        flex: 1;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    .card-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .card-row section {
+        width: 30%;
+    }
+}
