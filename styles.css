@@ -71,14 +71,12 @@ img {
 #screenings, #workshops, #collaborations {
     background-color: #1e293b;
     padding: 1rem;
-    padding: 1rem;
     border-left: 4px solid #38bdf8;
 }
 
 aside {
     background-color: #38bdf8;
     color: #1e293b;
-    padding: 1rem;
     padding: 1rem;
 }
 
@@ -126,15 +124,5 @@ footer {
 
     nav a {
         text-align: center;
-    }
-
-    .card-row {
-        display: flex;
-        justify-content: space-between;
-        gap: 1rem;
-    }
-
-    .card-row section {
-        width: 30%;
     }
 }
